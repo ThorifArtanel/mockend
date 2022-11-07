@@ -12,7 +12,7 @@
         "The Secret Behind Health"
       ]
     },
-    "desc": { "string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus, nunc nec ultrices accumsan, massa mauris vehicula purus, vitae aliquam velit magna eget nulla. Duis." },
+    "desc": "loremWords": { "minLength": 15, "maxLength": 25 },
     "content": {
         "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     },
