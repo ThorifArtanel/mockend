@@ -19,7 +19,7 @@
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     },
     "avatarUrl": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/160/80"
     }
   }
 }
