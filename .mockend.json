@@ -12,9 +12,11 @@
         "The Secret Behind Health"
       ]
     },
-    "desc": "loremWords": { "minLength": 15, "maxLength": 25 },
+    "desc": {
+      "loremWords": { "minLength": 15, "maxLength": 25 }
+    },
     "content": {
-        "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     },
     "avatarUrl": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
