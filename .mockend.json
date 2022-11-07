@@ -1,0 +1,9 @@
+{
+  "Guide": {
+    "title": { "string": {} },
+    "desc": { "string": {} },
+  },
+  "Comment": {
+    "body": { "string": {} },
+  }
+}
