@@ -1,15 +1,24 @@
 
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "Guides": {
+    "title": {
+      "string": [
+        "Cracking The Health Code",
+        "Cracking The Health Secret"
+        "Health Secrets Revealed",
+        "Health Secrets",
+        "The Hidden Mystery Behind Health",
+        "The Health Mystery",
+        "The Locals Lost Guide To Health",
+        "The Secret Behind Health"
+      ]
+    },
+    "desc": { "string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus, nunc nec ultrices accumsan, massa mauris vehicula purus, vitae aliquam velit magna eget nulla. Duis." },
+    "content": {
+        "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
+    "avatarUrl": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    },
   }
 }
