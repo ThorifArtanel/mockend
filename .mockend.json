@@ -1,9 +1,15 @@
+
 {
-  "Guide": {
+  "Post": {
     "title": { "string": {} },
-    "desc": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
   "Comment": {
     "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
